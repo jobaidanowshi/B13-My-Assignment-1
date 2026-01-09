@@ -127,4 +127,81 @@ nav .menu{
     font-size: 16px;
     font-weight: 600;
  }
- 
+ .notes-card{
+    /* background-color: aqua; */
+ }
+ #notes{
+    padding: 0px 120px;
+ }
+ .notes-container{
+    max-width: 1360px;
+    margin: 0px auto;
+ }
+ .notes-container .section-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .notes-container .section-heading h1{
+    margin-top: 60px;
+    margin-bottom: 16px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #001931;
+
+ }
+ .notes-container .section-heading p{
+    margin-bottom: 44px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+ }
+ .notes-container .notes-box{
+    display: flex;
+    gap: 24px;
+    /* box-shadow: ; */
+ }
+ .notes-box .notes-card{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    max-width: 322px;
+    max-height: 300px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+    /* box-shadow: 0 0 8 0 #0000002c; */
+ }
+ .notes-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    padding: 13px;
+    margin-bottom: 16px;
+
+
+ }
+ .notes-card h2{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+ }
+  .notes-card p{
+    font-size: 15px;
+    line-height: 20px;
+   
+    color: #627382;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .notes-card{
+    position: relative;
+    box-shadow: 0 6 8 2 black;
+    border: 1px solid #627382;
+  }
