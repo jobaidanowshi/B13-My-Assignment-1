@@ -28,7 +28,15 @@ nav .menu{
     display: flex;
     gap: 32px;
     list-style: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
 
+}
+li:hover{
+    background-color: lightgreen;
+}
+.btn:hover{
+    background-color: lightgreen;
 }
 .menu a{
     text-decoration: none;
@@ -48,6 +56,8 @@ nav .menu{
     background-color: #469165;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+    
 }
 #hero{
     padding: 115.5px 120px 125px 120px; 
@@ -82,8 +92,12 @@ nav .menu{
     border-radius: 1000px;
     background-color: #FFFFFF;
     margin-bottom: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
-
+.hero-btn:hover{
+    background-color: lightgreen;
+}
 
  .hero-container .hero-content h1{
     font-size: 72px;
@@ -117,7 +131,12 @@ nav .menu{
     font-size: 16px;
     font-weight: 600;
     box-shadow: 0 10 20 0 #000000;
+    cursor: pointer;
+    transition-duration: 0.4s;
     
+ }
+ .btn1:hover{
+    background-color: lightgreen;
  }
  .hero-container .button .btn2{
     color: #FFFFFF;
@@ -127,10 +146,14 @@ nav .menu{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
  }
- .notes-card{
-    /* background-color: aqua; */
+ .button .btn2:hover{
+    background-color: lightgreen;
  }
+ 
  #notes{
     padding: 0px 120px;
  }
@@ -162,6 +185,10 @@ nav .menu{
     gap: 24px;
     /* box-shadow: ; */
  }
+ .notes-container .notes-box .notes-card{
+    position: relative;
+     box-shadow: 0 0 8 0 #0000002c;
+ }
  .notes-box .notes-card{
     /* position: relative; */
     display: flex;
@@ -172,9 +199,10 @@ nav .menu{
     max-height: 300px;
     border-radius: 8px;
     justify-content: center;
-    background-color: #FFFFFF;
-    /* border: 1px solid red; */
-    /* box-shadow: 0 0 8 0 #0000002c; */
+    background-color: #F7F6F2;
+;
+    
+    box-shadow: 0 0 8 0 #0000002c;
  }
  .notes-card img{
     width: 60px;
@@ -204,9 +232,14 @@ nav .menu{
   .notes-card{
     position: relative;
     box-shadow: 0 6 8 2 black;
-    border: 1px solid #627382;
+    border: 1px solid #d5d8dba5;
+    
+  }
+  .notes-card:hover{
+    background-color: lightcyan;
   }
   #brain{
+    
     padding: 120px;
   }
   .brain-container{
@@ -285,3 +318,46 @@ nav .menu{
     color: #627382;
     text-align: center;
   }
+  #footer{
+    background-color: #001931;
+  }
+  .footer-container{
+    max-width: 1360px;
+    height: ;
+    margin: 0px auto;
+  }
+  .footer-container .footer-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 80px 120px;
+  }
+  .footer-menu .menu1{
+    display: flex;
+   list-style: none;
+   gap: 16px;
+   
+
+    
+
+  }
+  .footer-menu h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+  }
+  .line p{
+   
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    
+  }
+  hr{
+    height: 0.1px;
+  }
+  
